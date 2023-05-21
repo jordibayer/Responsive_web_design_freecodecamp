@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Survey Form</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-<h1 id="title">Survey Form</h1>
-<p id="description">Thank you for taking the time to help us improve the platform</p>
-<form id="survey-form">
-  <label id="name-label">Name:<input id="name" type="text" placeholder="George Washington" required/></label>
-  <label id="email-label">Email:<input id="email" type="email" placeholder="GWashington@usa.com" required/></label>
-  <label id="number-label">Age (optional):<input id="number" type="number" min="18" max="120" placeholder="54"/></label>
-  <label>Where did you hear about us?</label> 
-  <select id="dropdown">
-    <option value="">(select one)</option>
-    <option value="1">freeCodeCamp News</option>
-    <option value="2">freeCodeCamp Youtube</option>
-    <option value="3">freeCodeCamp Forum</option>
-  </select>
-  <label>Would you recommend out platform?</label>
-  <label><input name="recommend-button" type="radio" value="10"/> Yes</label>
-  <label><input name="recommend-button" type="radio" value="11"/> No</label>
-  <label>What would you like to see improved? (Check all that apply)</label>
-  <label><input value="20" type="checkbox" /> Front-end projects</label>
-  <label><input value="21" type="checkbox" /> Back-end projects</label>
-  <label>Any comment or suggestion? <textarea rows="3" cols="30" placeholder="Feel free to add any suggestion..."></textarea></label>
-  <input id="submit" type="submit"/>
-</form>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label id="name-label">Name:</label><input id="name" type="text" placeholder="George Washington" required />
+      <label id="email-label">Email:<input id="email" type="email" placeholder="GWashington@usa.com" required /></label>
+      <label id="number-label">Age (optional):<input id="number" type="number" min="18" max="120" placeholder="54" /></label>
+      <label>Where did you hear about us?</label>
+      <select id="dropdown">
+        <option value="">(select one)</option>
+        <option value="1">freeCodeCamp News</option>
+        <option value="2">freeCodeCamp Youtube</option>
+        <option value="3">freeCodeCamp Forum</option>
+      </select>
+      <label>Would you recommend out platform?</label>
+      <label><input name="recommend-button" type="radio" value="10" /> Yes</label>
+      <label><input name="recommend-button" type="radio" value="11" /> No</label>
+      <label>What would you like to see improved? (Check all that apply)</label>
+      <label><input value="20" type="checkbox" /> Front-end projects</label>
+      <label><input value="21" type="checkbox" /> Back-end projects</label>
+      <label
+        >Any comment or suggestion?
+        <textarea rows="3" cols="30" placeholder="Feel free to add any suggestion..."></textarea>
+      </label>
+      <input id="submit" type="submit" />
+    </form>
+  </body>
 </html>
